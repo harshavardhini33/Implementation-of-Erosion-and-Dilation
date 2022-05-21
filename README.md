@@ -6,20 +6,20 @@ To implement Erosion and Dilation using Python and OpenCV.
 2. OpenCV
 ## Algorithm:
 ### Step1:
-<br>
+Import the necessary packages.
 
 
 ### Step2:
-<br>
+Create the text image using cv2.putText.
 
 ### Step3:
-<br>
+Then create the structuring image for dilation/erosion
 
 ### Step4:
-<br>
+Apply erosion and dilation using cv2.erode and cv2.dilate
 
 ### Step5:
-<br>
+Plot the images using plt.imshow
 
  
 ## Program:
@@ -54,10 +54,6 @@ plt.axis('off')
 image_dilatel=cv2.dilate(img1,kernel)
 plt.imshow(image_dilatel,'gray')
 plt.axis('off')
-
-
-
-
 ```
 ## Output:
 
